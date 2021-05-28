@@ -1,0 +1,349 @@
+
+/* header style  */
+header
+{
+  background-color: #0a183d;
+  color: #fff;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+header nav
+{
+  margin: 0 25px;
+}
+header .wrapper
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px
+}
+header .wrapper h1 span
+{
+  color: #fc0254;
+}
+
+header .wrapper .icon i
+{
+  font-size: 40px;
+  cursor: pointer;
+}
+.main .container .row
+{
+  align-items: center;
+}
+
+header .main .content h1
+{
+  font-size: 70px;
+  position: relative;
+  top: 0px;
+  line-height: .9;
+  margin-bottom: 25px;
+}
+header .main .content span
+{
+  color: #fc0254;
+}
+header .main .content p
+{
+  position: relative;
+  top: 0px;
+  width: 70%;
+
+}
+.main .vector img
+{
+  display: none;
+}
+header .main .content .subscribe
+{
+  position: relative;
+  top: 50px;
+  margin-top: 30px;
+}
+.bttn
+{
+  padding: 15px;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+header .main .content .subscribe .download
+{
+  background-color: #fc0254;
+  position: relative;
+  right: 40px;
+
+}
+header .main .content .subscribe .trial
+{
+  background-color: #383b70;
+  position: relative;
+  left: 40px;
+}
+/* aside  */
+aside
+{
+  background-color: #08192d;
+  width: 200px;
+  height: 100%;
+  position: absolute;
+  right: -200px;
+  top: 0;
+  text-align: center;
+  padding: 20px;
+  transition: all 1s ease;
+  
+}
+aside ul li
+{
+  padding: 15px 10px;
+  border-bottom: 1px solid #383b70;
+  cursor: pointer;
+  transition: color .5s ease;
+}
+aside ul li:hover{
+  color: #fc0254;
+}
+aside p 
+{
+  color: #fc0254;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 7px;
+  transition: all .5s ease;
+}
+aside p:hover
+{
+  background-color: #fc0254;
+  color: #fff;
+}
+/* wave pic  */
+
+header .wave
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* tracks section  */
+
+.tracks h2
+{
+  color: #0a183d;
+  font-size: 60px;
+  line-height: 1;
+  margin-top: 80px;
+
+}
+.tracks .song button
+{
+  background-color: #fc0254;
+  padding: 10px 25px;
+  position: relative;
+  top: 50px;
+}
+.card-header
+{
+  background-color: #0a183d;
+  color: #fff;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.card-header .card-body
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 20px;
+  
+}
+.card-header .card-body i
+{
+  color: #fc0254;
+  line-height: 30px;
+}
+
+.collapses .content
+{
+  display: none;
+  background-color: #383b70;
+  text-align: center;
+  padding: 10px;
+}
+
+/* opennig soon section  */
+
+.openning
+{
+  text-align: center;
+}
+.openning h2
+{
+  font-size: 62px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+.openning img
+{
+  height: 50vh;
+}
+.openning .countdown
+{
+  display: flex;
+  justify-content: space-around;
+  width: 60vw;
+  margin: auto;
+}
+
+/* footer  */
+
+footer
+{
+  background-image: url(../images/how-to-bg.jpg.webp);
+  background-position: center;
+  background-size: contain;
+  text-align: center;
+  color: #fff;
+}
+footer h2
+{
+  margin-bottom: 30px;
+}
+footer textarea
+{
+  width: 500px;
+  height: 150px;
+  border: 0;
+  border-radius: 7px;
+  padding: 10px;
+}
+footer textarea:focus
+{
+  outline: none;
+}
+footer button
+{
+  background-color: #fc0254;
+  padding: 7px 20px !important;
+}
+footer span
+{
+  color: #fc0254;
+  font-weight: bolder;
+}
+
+/* // color box & scroll box  */
+.color-box
+{
+  position: fixed;
+  left: -160px;
+  top: 50%;
+  z-index: 9;
+}
+
+.color-box .box-container
+{
+  display: flex;
+}
+.color-box ul
+{
+  margin: 0;
+
+}
+.color-box ul li
+{
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.color-box .colors
+{
+  background-color: #383b70;
+  padding: 6px 15px;
+}
+.color-box .icon
+{
+  background-color: #383b70;
+  padding: 5px;
+}
+.color-box .icon i 
+{
+  font-size: 25px;
+  color: white;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.scroll-box
+{
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  font-size: 20px;
+  background-color: #ffbd00;
+  color: #08192d;
+  padding: 4px 8px;
+  display: none;
+}
+
+.scroll-box i
+{
+  cursor: pointer;
+  
+}
+
+
+/* media query  */
+
+
+@media only screen and (max-width: 770px) {
+  .main .vector img 
+  {
+    display: none !important;
+  }
+  .main .content
+  {
+    text-align: center;
+  }
+  .main .content p 
+  {
+    width: 100% !important;
+  }
+  .wave img 
+  {
+    display: none;
+  }
+  .tracks .song button
+  {
+    top: 0;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .openning img 
+  {
+    height: 200px;
+  }
+  .openning .countdown
+  {
+    justify-content: space-between;
+  }
+  .openning .countdown h5 
+  {
+    font-size: 16px;
+  }
+  footer textarea
+  {
+    width: 80%;
+  }
+}
